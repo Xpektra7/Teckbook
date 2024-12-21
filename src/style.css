@@ -6,6 +6,9 @@
     font-family: monospace;
     color: #bebebe;
     transition: .3s ease;
+    animation:pop linear;
+    animation-timeline:view();
+    animation-range:entry 0% cover 20%;
 }
 body{
     scroll-behavior: smooth;
@@ -19,4 +22,15 @@ h1,h2,h3,h4,button{
 }
 button:hover>.hero-svg,.invert{
     filter: invert(1);
+}
+
+@keyframes pop{
+    from{
+        opacity:0.4;
+        scale:0.8;
+    }
+    to{
+        opacity:1;
+        scale:1;
+    }
 }
