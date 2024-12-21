@@ -10,6 +10,7 @@
 body{
     scroll-behavior: smooth;
     transition: .3s;
+    filter: url(#noise-filter);
 }
 h1,h2,h3,h4,button{
     color: white;
