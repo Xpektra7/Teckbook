@@ -10,7 +10,6 @@
 body{
     scroll-behavior: smooth;
     transition: .3s;
-    background:url('./assets/noise.svg') repeat, #0c0c0c;
 }
 h1,h2,h3,h4,button{
     color: white;
